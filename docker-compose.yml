@@ -1,0 +1,8 @@
+version: "3.7"
+services:
+  web:
+    container_name: manabisend_container
+    image: kanglerian/manabisend-whatsapp-lp3i:latest
+    ports:
+      - "9001:3000"
+    restart: unless-stopped
