@@ -251,7 +251,7 @@ app.use(express.urlencoded({
 }));
 
 app.get('/', (req, res) => {
-  return res.send('WhatsApp Sender Server Lerian Febriana 🚀');
+  return res.send('WhatsApp Sender Server Lerian Asep Nabila 🚀');
 });
 
 app.post('/iseng', async (req, res) => {
